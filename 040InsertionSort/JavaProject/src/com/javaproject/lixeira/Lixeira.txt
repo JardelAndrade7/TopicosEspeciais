@@ -1,0 +1,184 @@
+﻿Lixeira
+
+
+
+
+/*
+
+package com.javaproject.quicksort;
+
+public class QuickSort {
+
+
+
+	
+    public int [ ] swap(int [ ] vector, int posicaoTrocar1, int posicaoTrocar2) {
+
+        int vectorPosicaoTrocar1 = vector [ posicaoTrocar1 ];
+
+        vector [ posicaoTrocar1 ] = vector [ posicaoTrocar2 ];
+
+        vector [ posicaoTrocar2 ] = vectorPosicaoTrocar1 ;
+
+        return vector;
+            
+    } // swap
+
+    
+
+
+    // 4, 1, 2, 7, 90, 8, 65, 32
+
+    // 4, 1, 2, 7, 90, 8, 65, 32
+
+    public int partition(int[] values, int left, int right) {
+        
+        int pivot = values[left]; // pivot = 7
+
+        int i = left; // i = 0
+
+        for (int j = left + 1; j <= right; j++) { // j = 5
+
+            if (values[j] <= pivot) { // 5 < 7?
+
+                i+=1; // i = 3
+
+                swap(values, i, j);
+
+            } // if
+
+        } // for
+
+
+
+
+        // Troca values [ left ] por values [ i ]
+
+        // Ou seja, troca pivot pelo último número da sequência que é menor ou igual a ele
+
+        swap(values, left, i);
+
+
+
+
+        // Retorna a posição do pivot
+        
+        return i; // 3
+
+    } // partition
+
+
+
+
+    public void quickSort(int[] values, int left, int right) {
+
+	    if (left < right) {
+
+		    int index_pivot = partition(values, left, right);
+
+            // 4, 1, 2, 7, 90, 8, 65, 32 // 0, 2
+
+        	quickSort(values, left, index_pivot - 1);
+
+		    quickSort(values, index_pivot + 1, right);	
+
+	    } // if
+
+    } // quickSort
+
+
+
+
+    public void showVector(int [ ] vector) {
+
+        System.out.print(
+
+            "\n\n");
+
+        for(int i = 0; i < vector.length; i++) {
+
+            System.out.print(
+    
+                vector [ i ] +
+    
+                "\n\n");
+
+        } // for
+        
+    } // showVector
+    
+} // QuickSort
+
+*/
+
+
+
+
+            System.out.print(
+                
+                "Depois do quickSort(left, index_pivot - 1)" +
+                
+                "\n\n" +
+                
+                "values: ");
+
+            showVector(values);
+
+            System.out.print(
+                
+                "\n\n" +
+                
+                "indexPivot: " + index_pivot +
+                
+                "\n\n\n\n\n");
+
+
+
+
+            System.out.print(
+                
+                "Depois do quickSort(index_pivot + 1, right" +
+                
+                "\n\n" +
+                
+                "values: ");
+
+            showVector(values);
+
+            System.out.print(
+                
+                "\n\n" +
+                
+                "indexPivot: " + index_pivot +
+                
+                "\n\n\n\n\n");
+
+
+
+
+        // quickSort.showVector(vector);
+
+
+
+
+                // "\n\n");
+
+
+
+
+        System.out.print(
+
+            "\n\n");
+
+
+
+
+        /*
+            
+        for(int i = 0; i <= vector.length; i++) {
+                
+            if(vector [i] 
+                
+        }
+
+        */

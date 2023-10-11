@@ -1,0 +1,58 @@
+﻿Lixeira4CodigoBase
+
+Código do partition e do quickSort sem comentários
+
+para ser copiado para outro arquivo
+
+para treinar o debug
+
+
+
+
+    public int partition(int[] values, int left, int right) {
+        
+        int pivot = values[left];
+
+        int i = left;
+
+        for (int j = left + 1; j <= right; j++) {
+
+            if (values[j] <= pivot) {
+
+                i+=1;
+
+                swap(values, i, j);
+
+            } // if
+
+        } // for
+
+        swap(values, left, i);
+        
+        return i;
+
+    } // partition
+
+
+
+
+    public void quickSort(int[] values, int left, int right) {
+
+	    if (left < right) {
+
+		    int index_pivot = partition(values, left, right);
+
+        	quickSort(values, left, index_pivot - 1);
+
+		    quickSort(values, index_pivot + 1, right);
+
+	    } // if
+
+    } // quickSort
+
+
+
+
+// 3, 8, 7, 10, 0, 23, 2, 1, 77, 7
+
+// 3, 8, 7, 10, 0, 23, 2, 1, 77, 7
