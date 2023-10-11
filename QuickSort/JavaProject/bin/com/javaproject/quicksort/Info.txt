@@ -1,0 +1,1 @@
+Essa pasta guarda os arquivos que eu utilizo para os meus testes, pois os códigos contém os comentários que me ajudam a entende-los melhor.
