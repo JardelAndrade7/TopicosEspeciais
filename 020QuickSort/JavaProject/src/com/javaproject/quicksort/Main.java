@@ -46,9 +46,15 @@ public class Main {
             
             "\n\n\n\n\n");
 
+
+
+
         // Chamando o quickSort, que vai fazer cada um dos particionamentos e mostrar cada um
 
         quickSort.quickSort(vector, left, right);
+
+
+        
 
         System.out.print(
 

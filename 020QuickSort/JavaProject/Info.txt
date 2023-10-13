@@ -1,0 +1,16 @@
+Cada versão que eu enviar para o GitHub terá suas informações gerais aqui
+
+
+
+
+Versão 1
+
+Resumo: Espaçamentos - quicksort.Main - quicksort2.Main
+
+Detalhamento:
+
+1. Adequei alguns espaçamentos da Main da pasta quicksort para que eu pudesse entender melhor.
+
+2. Corrigi alguns espaçamentos ma Main da pasta quicksort2 para que, se fosse necessário mostrar na apresentação, vissem somente o necessário.
+
+3. A Main ordena o vetor e mostra como ficou no final.

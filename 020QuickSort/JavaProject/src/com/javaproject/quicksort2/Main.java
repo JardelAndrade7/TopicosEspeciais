@@ -14,24 +14,16 @@ public class Main {
 
 
 
-        // Declarando vetores de exemplo
+        // Declarando vetor de exemplo
 
-        // Vetores da publicação
+        // Vetor da publicação
 
         int [ ] vector = {3, 8, 7, 10, 0, 23, 2, 1, 77, 7};
 
-        int [ ] vector2 = {6, 4, 12, 2, 24, 1};
-
-        // Meu vetor, inventado por mim
-
-        int [ ] vector3 = {60, 50, 80, 40, 30, 90};
-
-        int [ ] vector4 = {3, 8, 7, 10, 0, 2, 1, 7};
 
 
 
-
-        // Declarando início e fim do vetor a ser utilizado
+        // Declarando início e fim do vetor a ser ordenado
 
         int left = 0;
 
@@ -44,13 +36,28 @@ public class Main {
 
             "----------------" +
             
-            "\n\n\n\n\n");
+            "\n\n");
 
-        // Chamando o quickSort, que vai fazer cada um dos particionamentos e mostrar cada um
+
+
+
+        // Chamando o quickSort e ordenando o vetor
 
         quickSort.quickSort(vector, left, right);
 
+
+
+
+        // Mosytrando o vetor ordenado
+
+        quickSort.showVector(vector);
+
+
+
+
         System.out.print(
+
+            "\n\n" +
 
             "----------------");
 
