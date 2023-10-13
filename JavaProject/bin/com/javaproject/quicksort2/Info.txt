@@ -1,0 +1,1 @@
+Essa pasta guarda arquivos que podem ser usados na apresentação, pois não tem os comentários, são códigos mais "limpos" e pequenos.
