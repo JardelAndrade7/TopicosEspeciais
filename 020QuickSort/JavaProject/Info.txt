@@ -3,9 +3,7 @@ Cada versão que eu enviar para o GitHub terá suas informações gerais aqui
 
 
 
-Versão 1
-
-Resumo: Espaçamentos - quicksort.Main - quicksort2.Main
+Versão 1 - Resumo: Espaçamentos - quicksort.Main
 
 Detalhamento:
 
